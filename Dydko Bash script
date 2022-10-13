@@ -1,0 +1,3 @@
+#!/bin/sh
+echo 'The current directory is:'
+ls -a ./$1| readlink -f grep *$2* > taskFind1.txt
